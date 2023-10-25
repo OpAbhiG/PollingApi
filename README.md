@@ -5,7 +5,7 @@ Task: Need to create an API where anyone can create questions with options and a
 
 ---
 
-# API for Polling Questions - Coding Ninjas Backend Skill Test Project
+## API for Polling Questions - Coding Ninjas Backend Skill Test Project
 
 Task: Need to create an API where anyone can create questions with options and also add votes to it
 
@@ -31,7 +31,7 @@ View a question with its options and all the votes given to it
 2. Enter The Url into the postMan with the required Method and data to pass with the request
 3. Then just Note The Change in your database.
 
-### URL That I Have Created
+## URL That I Have Created
 
 1. _http://localhost:8000/questions/create_ (To create the questions)
 2. _http://localhost:8000/questions/:id/options/create_ (To create the options of particular questions)
@@ -68,8 +68,6 @@ CSV_Upload/
 ├── README.md
 
 
-
-## _Note_
-
+## Note
 1. A question can’t be deleted if one of its options has votes
 2. An option can’t be deleted if it has even one vote given to it
