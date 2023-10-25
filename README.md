@@ -1,10 +1,10 @@
 # Polling System API
----
 
 ## API for Polling Questions - Coding Ninjas Backend Skill Test Project
-```
+
 Task: Need to create an API where anyone can create questions with options and also add votes to it
-```
+
+
 ## Features
 Create a question
 Add options to a question
@@ -14,7 +14,7 @@ Delete an option → (optional: An option can’t be deleted if it has even one 
 View a question with its options and all the votes given to it
 
 ## How to use it in your local system
-```
+
 1. First install the MongoDB community server on your device by going to the Mongodb website and then downloading the Mongodb community server
 2. Once you download the MongoDB community server just open your terminal and run the command `npm install`
 3. After running the command, it will download all the libraries needed to run this project.
@@ -22,13 +22,14 @@ View a question with its options and all the votes given to it
 5. Just download the MongoDB Compass and PostMan from the browser.
 
 ## How to use PostMan
-```
+
+
 1. Open PostMan
 2. Enter The Url into the postMan with the required Method and data to pass with the request
 3. Then just Note The Change in your database.
 
 ## URL That I Have Created
-```
+
 1. _http://localhost:8000/questions/create_ (To create the questions)
 2. _http://localhost:8000/questions/:id/options/create_ (To create the options of particular questions)
 3. _http://localhost:8000/options/:id/add_vote_ (To add a vote for a Particular Option)
@@ -41,7 +42,7 @@ Git Repository link: https://github.com/OpAbhiG/PollingApi
 
 
 Hosted URL: https://polling-api-npoe.onrender.com/
-```
+
 Task
 - You need to create an API where anyone can create questions with options and also add votes to it
 - Authentication/User identity is not needed, this is going to be a completely open application, however
