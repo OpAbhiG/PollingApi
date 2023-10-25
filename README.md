@@ -38,9 +38,10 @@ View a question with its options and all the votes given to it
 6. _http://localhost:8000/options/62ff61c492d525ac764ec787/delete_ (To delete a particular option)
 
 
-1.Git Repository link: https://github.com/OpAbhiG/PollingApi
-2.Video: https://youtu.be/_aw5PQwP5Wg?si=-g4zLRWqHoTpbt2y
-3.Hosted URL: https://polling-api-npoe.onrender.com/
+
+1. Git Repository link: https://github.com/OpAbhiG/PollingApi
+2. Video: https://youtu.be/_aw5PQwP5Wg?si=-g4zLRWqHoTpbt2y
+3. Hosted URL: https://polling-api-npoe.onrender.com/
 
 Task
 - You need to create an API where anyone can create questions with options and also add votes to it
