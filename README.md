@@ -66,7 +66,6 @@ if you want to and think there’s extra time, you can create authentication
 
 tricky part, you’ll need to insert it dynamically):
 
-```
 {
 id: 1,
 title: “Who is your favorite from the Ninjas Mentors”,
@@ -101,10 +100,13 @@ link_to_vote: “http://localhost:8000/options/3/add_vote”,
 
 - Decide the schemas and fields on your own, smartly
 
-Folder Structure
+## Note
+1. A question can’t be deleted if one of its options has votes
+2. An option can’t be deleted if it has even one vote given to it
+
+## Folder Structure
 
 ```
-
 CSV_Upload/
 |── |config/
 │   |      ├── mongoose.js
@@ -124,8 +126,3 @@ CSV_Upload/
 ├── package-lock.json
 ├── package.json
 ├── README.md
-
-
-## Note
-1. A question can’t be deleted if one of its options has votes
-2. An option can’t be deleted if it has even one vote given to it
