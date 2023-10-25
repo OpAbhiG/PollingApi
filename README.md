@@ -62,6 +62,34 @@ if you want to and think there’s extra time, you can create authentication
 - /options/:id/add_vote (To increment the count of votes)
 - /questions/:id (To view a question and it’s options)
 - The API will look like this (Pay close attention to the link_to_vote, because that’s
+- Decide the schemas and fields on your own, smartly
+
+## Note
+1. A question can’t be deleted if one of its options has votes
+2. An option can’t be deleted if it has even one vote given to it
+
+## Folder Structure
+
+```
+CSV_Upload/
+|── |config/
+│   |      ├── mongoose.js
+|   |
+├── routes/
+│   |      ├── api/
+│   ├── index.js
+|   |
+├── controllers/
+│   ├── OptionsController.js
+│   ├── QuestionsController.js
+|   |
+├── models/
+│   ├── options.js
+│   ├── questions.js
+|   |
+├── package-lock.json
+├── package.json
+├── README.md
 
 
 tricky part, you’ll need to insert it dynamically):
@@ -97,32 +125,3 @@ link_to_vote: “http://localhost:8000/options/3/add_vote”,
 }
 ]
 }
-
-- Decide the schemas and fields on your own, smartly
-
-## Note
-1. A question can’t be deleted if one of its options has votes
-2. An option can’t be deleted if it has even one vote given to it
-
-## Folder Structure
-
-```
-CSV_Upload/
-|── |config/
-│   |      ├── mongoose.js
-|   |
-├── routes/
-│   |      ├── api/
-│   ├── index.js
-|   |
-├── controllers/
-│   ├── OptionsController.js
-│   ├── QuestionsController.js
-|   |
-├── models/
-│   ├── options.js
-│   ├── questions.js
-|   |
-├── package-lock.json
-├── package.json
-├── README.md
