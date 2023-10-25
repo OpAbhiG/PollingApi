@@ -101,8 +101,10 @@ link_to_vote: “http://localhost:8000/options/3/add_vote”,
 
 - Decide the schemas and fields on your own, smartly
 
-## Folder Structure
+Folder Structure
+
 ```
+
 CSV_Upload/
 |── |config/
 │   |      ├── mongoose.js
