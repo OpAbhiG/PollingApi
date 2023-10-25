@@ -41,7 +41,8 @@ View a question with its options and all the votes given to it
 6. _http://localhost:8000/options/62ff61c492d525ac764ec787/delete_ (To delete a particular option)
 
 
-Git Repository link: https://github.com/OpAbhiG/PollingApi--Main
+Git Repository link: https://github.com/OpAbhiG/PollingApi
+
 
 Hosted URL: https://polling-api-npoe.onrender.com/
 
